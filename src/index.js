@@ -8,7 +8,7 @@ const post = {
   title: 'I <3 Dinosaurs',
   author: 'tuhoarex',
   body: "wow... it's a body",
-  comment: ['first!']
+  comments: ['first!', 'great post', 'hire this person!']
 }
 
 ReactDOM.render(

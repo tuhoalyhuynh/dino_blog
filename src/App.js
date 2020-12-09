@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Dino from "./Dino"
 
 function App(props) {
   return (
     <div className="App">
-      <h1>{props.post.title}</h1>
-      <h2>By: {props.post.author}</h2>
-      <h3>{props.post.body}</h3>
-      <h2>Comments</h2>
-      <h4>{props.post.comment}</h4>
+      <Dino 
+        title={props.post.title}
+        author={props.post.author}
+        body={props.post.body}
+        comments={props.post.comments}
+      />
     </div>
   );
 }
